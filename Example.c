@@ -6,7 +6,7 @@ sbit mcp48x2_sck at RB1_bit;      // connects to SCK pin of MCP 4822
 sbit mcp48x2_sck_Dir at TRISB1_bit;
 sbit mcp48x2_sdo at RB2_bit;      // connects to SDI pin of MCP 4822
 sbit mcp48x2_sdo_Dir at TRISB2_bit;
-sbit mcp48x2_ldac at RB3_bit;      // connects to SDI pin of MCP 4822
+sbit mcp48x2_ldac at RB3_bit;      // connects to LDAC pin of MCP 4822
 sbit mcp48x2_ldac_Dir at TRISB3_bit;
 
 
