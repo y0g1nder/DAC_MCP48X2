@@ -34,13 +34,14 @@
 
 #define MCP48X2 MCP4822
 
-sbit mcp48x2_cs at RB0_bit;       // connects to CS pin of MCP 4802
+// These pin setting need to be done mannualy by commenting out this if you want to use microcontroller other then PIC.
+sbit mcp48x2_cs at RB0_bit;       // connects to CS pin of MCP 48x2
 sbit mcp48x2_cs_Dir at TRISB0_bit;
-sbit mcp48x2_sck at RB1_bit;      // connects to SCK pin of MCP 4802
+sbit mcp48x2_sck at RB1_bit;      // connects to SCK pin of MCP 48x2
 sbit mcp48x2_sck_Dir at TRISB1_bit;
-sbit mcp48x2_sdo at RB2_bit;      // connects to SDI pin of MCP 4802
+sbit mcp48x2_sdo at RB2_bit;      // connects to SDI pin of MCP 48x2
 sbit mcp48x2_sdo_Dir at TRISB2_bit;
-sbit mcp48x2_ldac at RB3_bit;      // connects to SDI pin of MCP 4802
+sbit mcp48x2_ldac at RB3_bit;      // connects to LDAC pin of MCP 48x2
 sbit mcp48x2_ldac_Dir at TRISB3_bit;
 
 
